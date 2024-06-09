@@ -1,4 +1,3 @@
-.ipynb_checkpoints/
 # Created by https://www.toptal.com/developers/gitignore/api/python
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
 
@@ -7,6 +6,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Extensions
+*.csv
+*.xlsx
 
 # C extensions
 *.so
@@ -80,7 +83,6 @@ docs/_build/
 .pybuilder/
 target/
 
-# Jupyter Notebook
 .ipynb_checkpoints
 
 # IPython
@@ -88,10 +90,13 @@ profile_default/
 ipython_config.py
 
 # pyenv
+
+# Extensions
+
+*.xlsx
 #   For a library or package, you might want to ignore these files since the code is
 #   intended to run in multiple environments; otherwise, check them in:
 # .python-version
-
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
 #   However, in case of collaboration, if having platform-specific dependencies or dependencies
